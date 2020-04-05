@@ -21,7 +21,7 @@ for i in range(t):
 	for j in range(n):
 		k=mat[j][j]
 		dia.append(k)
-	#print(sum(dia))
+	
 
 	r=0
 	for j in range(len(mat)):
@@ -41,10 +41,8 @@ for i in range(t):
 			r=r+1
 		else:
 			pass
-	#print(r)
 
-	c=0
-	#print(mat)
+
 	for j in range(n):
 		count=0
 
@@ -52,7 +50,6 @@ for i in range(t):
 		for f in range(n):
 			temp=mat[f][j]
 			my_list.append(temp)
-		#print(my_list)
 
 
 	c=0
@@ -65,7 +62,6 @@ for i in range(t):
 				p=mat[k][i]
 				temp.append(p)
 			new_c.append(temp)
-	#print(new_c)
 
 	for j in range(len(new_c)):
 		count=0
